@@ -24,6 +24,7 @@ Ledz{
 
 ## Configure
 LedzGroup* ledzGroup;
+
 LedzItem* ledzItem;
 
 
