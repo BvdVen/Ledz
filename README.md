@@ -5,22 +5,39 @@ First Arduino project to control leds.
 The Ledz program can contain multiple LedzGroups, a LedzGroup contains the repetition count and can contain multiple LedzItems. A LedzItenm contains one or multiple pins and the duration these pins are 'active' (digitalWrite High).
 
 Ledz{
+
   LedzGroups{
+  
     LedzGroup{
+    
       repetition: ##,
+      
       ledzItems:{
+      
         LedzItem{
+        
           duration: ##,
+          
           pins{
+          
             ##,
+            
             ##
+            
           }
+          
         }
+        
       }
+      
     },
+    
     LedzGroup{....}
+    
   }
+  
 }
+
 
 ## Configure
 LedzGroup* ledzGroup;
